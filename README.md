@@ -1,4 +1,4 @@
-# Codex 全屏背景色
+# Codex 全屏换肤
 
 给 macOS 与 Windows 版 Codex 添加可切换的全屏背景、暗黑界面与高对比度文字。通过仅监听本机的 CDP 连接生效，不修改 Codex 的安装文件或代码签名。
 
