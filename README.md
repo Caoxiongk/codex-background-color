@@ -55,6 +55,16 @@
 
 选择“Codex 原始（无注入）”会立即移除背景、样式和设置面板，恢复 Codex 的初始外观。右下角会保留“启用暗黑”按钮；点击它或双击 [启用暗黑主题.command](./启用暗黑主题.command) 即可恢复内置主题。
 
+## 效果图
+
+Codex 主界面效果：
+
+![Codex 主界面效果](./docs/images/effect-main.png)
+
+Codex 设置页效果：
+
+![Codex 设置页效果](./docs/images/effect-settings.png)
+
 ## 恢复原始 Codex
 
 双击 [恢复原始Codex.command](./恢复原始Codex.command) 可停止注入器并移除当前窗口的背景控件。这个操作不会替换、还原或修改任何 Codex 安装文件。
