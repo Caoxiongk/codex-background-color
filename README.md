@@ -79,6 +79,29 @@ npm run restore     # 停止注入并恢复原始界面
 
 欢迎添加作者微信，加入交流群。
 
+## 其他 AI 工具充值
+
+| 工具 | 方案 | 价格 |
+| --- | --- | ---: |
+| GPT Plus | 拼车 | 70 |
+| GPT Plus | 订阅 | 145 |
+| GPT Pro | 5x | 760 |
+| GPT Pro | 20x | 1350 |
+| Claude Pro | 订阅 | 145 |
+| Claude | 5x | 820 |
+| Claude | 20x | 1610 |
+| Grok | 1 月 | 105 |
+| Grok | 2 月 | 200 |
+| Gemini | 年卡 | 45 |
+
+GPT 与 Claude 的订阅方案包含订阅服务，不包含账号封禁处理。
+
+## 上游监控系统
+
+监控每个中转站的上游分组倍率与余额，并通过短信发送通知。
+
+源码出售：200
+
 ## 中转站
 
 [https://youmisub.cloud](https://youmisub.cloud)
