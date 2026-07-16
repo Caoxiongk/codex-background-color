@@ -16,6 +16,32 @@
 3. 脚本会启动或连接已运行的 Codex，并自动应用内置“暗黑狐狸”主题。
 4. 在 Codex 右下角点击 `◐`，打开背景与主题设置。
 
+## macOS 使用
+
+1. 保留整个项目目录及 `themes/dark/background.jpg`。
+2. 双击 [运行并注入.command](./运行并注入.command)。首次运行若出现系统提示，请选择“打开”。
+3. 脚本会以本机调试参数启动或连接 Codex，并在后台保持注入器运行。
+4. 需要停止背景注入并恢复初始界面时，双击 [恢复原始Codex.command](./恢复原始Codex.command)。
+5. 在“Codex 原始（无注入）”状态下，点击右下角“启用暗黑”即可重新应用内置主题。
+
+## Windows 使用
+
+1. 安装官方 Codex 和 [Node.js LTS](https://nodejs.org/)，确认 `node -v` 可以在 PowerShell 中执行。
+2. 在项目目录空白处打开 PowerShell。
+3. 运行以下命令启动 Codex 并应用背景主题：
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File .\scripts\launch-windows.ps1
+   ```
+
+4. 需要停止注入并恢复初始界面时，运行：
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File .\scripts\launch-windows.ps1 -Mode remove
+   ```
+
+5. 注入器日志保存在 `%LOCALAPPDATA%\CodexBackgroundColor\injector.log`，启动异常日志保存在同目录的 `injector-error.log`。
+
 ## 主题与背景
 
 在右下角 `◐` 的设置面板中可以：
