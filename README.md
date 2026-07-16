@@ -65,6 +65,10 @@ Codex 设置页效果：
 
 ![Codex 设置页效果](./docs/images/effect-settings.png)
 
+Codex 主题面板效果：
+
+![Codex 主题面板效果](./docs/images/effect-theme-panel.png)
+
 ## 恢复原始 Codex
 
 双击 [恢复原始Codex.command](./恢复原始Codex.command) 可停止注入器并移除当前窗口的背景控件。这个操作不会替换、还原或修改任何 Codex 安装文件。
