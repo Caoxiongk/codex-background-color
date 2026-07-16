@@ -39,8 +39,10 @@ function injectedScript() {
       cursor: 'pointer', font: '600 12px/1 system-ui', boxShadow: '0 3px 12px rgba(0,0,0,.22)',
     });
     trigger.addEventListener('click', () => {
-      localStorage.removeItem(KEY);
-      trigger.remove();
+      // 原始主题模式没有完整注入状态，不能只移除按钮并等待 watcher 轮询。
+      // 明确切回内置主题后刷新渲染页，watcher 会立即重新注入完整工作台。
+      localStorage.setItem(KEY, JSON.stringify({ ...defaults, themeId: BUNDLED_THEME.id }));
+      window.location.reload();
     });
     document.body.appendChild(trigger);
   };
