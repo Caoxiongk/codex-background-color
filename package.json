@@ -1,0 +1,11 @@
+{
+  "name": "codex-background-color",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "inject": "bash scripts/launch.sh apply",
+    "apply-dark": "bash scripts/launch.sh apply",
+    "restore": "bash scripts/launch.sh remove"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "bundled-dark-fox-v1",
+  "name": "暗黑狐狸",
+  "mode": "dark",
+  "image": "background.jpg",
+  "opacity": 100,
+  "uiOpacity": 62,
+  "iconTheme": "default",
+  "colors": {
+    "foreground": "#ffffff",
+    "link": "#9db8ff",
+    "surface": "rgba(48, 56, 69, 0.62)"
+  }
+}
